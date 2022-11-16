@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    color: aliceblue;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40;
+}
+
+.menu li a:hover{
+    color: blue
+}
+
+.jujutsu{
+    font-family: "Jujutsu Kaisen", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 60px;
+    padding: 0%;
+}
+
+.jujutsu li{
+    font-family: "Jujutsu Kaisen", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 60px;
+    padding: 0%;
+}
+.background{
+    background: #2c2b2b;
+}
+
+.tm-certo{
+    width: 720px;
+    height: 405px;
+}
+
+.tm-certo1{
+    width: 941px;
+    height: 500px;
+}
+
+
+.text{
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.padding{
+    padding-left: 7mm;
+    padding-right: 7mm;
+}
+
+.padding ul a{
+    padding: 4mm;
+}
+
+.menu1 li{
+    display: list-item;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+    margin: 10px;
+    color: aliceblue;
+    
+}
+
+
+.tm{
+    width: 250px;
+}
+
+.text1{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.text2{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.background2{
+   background: black;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.margin{
+    margin-left: 3mm;
+    margin-right: 3mm;
+}
