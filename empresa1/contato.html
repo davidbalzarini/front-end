@@ -5,36 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
+    <div  class="container border">
+        <div class="center padding-btn">
+            <a href="index.html"><img class="tm" src="https://logospng.org/download/kibon/logo-kibon-vermelha-1024.png" alt="logo kibon"></a>
+        </div>
+        <div class="btn center">
+            <a href="sobre.html"><button class="btn btn-design">Sobre a Quebom</button></a>
+        </div>
+        <div class="btn center">
+            <a href="//google.com"><button class="btn btn-design">Produtos</button></a>
+        </div>
+        <div class="btn center">
+            <a href=""><button class=" btn btn-design">Venda Quebom</button></a>
+        </div>
+        <div class="btn center">
+            <a href=""><button class="btn btn-design">Delivery</button></a>
+        </div>
+        <div class="btn center">
+            <a href=""><button class="btn btn-design">Inscreva-se</button></a>
+        </div>
+        <div class="center padding-btn">
+            <a href="//google.com"><img class="tm" src="https://cdn-icons-png.flaticon.com/512/64/64673.png" alt=""></a>
+        </div>
+    </div>
+
     <div>
-        <h1>Entre em contato comigo</h1>
+        <h1 class="center textk">Entre em contato com a gente</h1>
         <div>
             <form>
-                <label>Nome: </label>
-                <br>
-                <input placeholder="digite seu nome">
-                <br>
-                <br>
-                <label>Email: </label>
-                <br>
-                <input placeholder="digite seu email">
-                <br>
-                <br>
-                <label>Assunto: </label>
-                <br>
-                <input>
-                <br>
-                <br>
-                <label>Mensagem: </label>
-                <br>
-                <textarea></textarea>
-                <br>
-                <button>Enviar</button>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                </div>
+                <div id="txtNome">
+
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                <input  type="email" id="email" onkeyup="validaEmail()">
+                </div>
+                <div id="txtEmail">
+
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" id="mensagem" cols="60" onkeyup="validaMensagem()" rows="5"></textarea>
+                </div>
+                <div id="txtMensagem">
+
+                </div>
+                <div class="center2 btn2 btn-design2">
+                    <button class="center2 btn2 btn-design2" onclick="enviar()">Enviar</button>
+                </div>
+                
 
             </form>
         </div>
+
+
+
 
         <div>
             <h3>Endereço da minha empresa</h3>
@@ -68,6 +101,8 @@
     <footer>
         <h5>Direitos reservados: David Balzarini &copy;</h5>
     </footer>
+
+    <script src="assets/scripts/script.js"></script>
     
 </body>
 </html>
