@@ -1,0 +1,19 @@
+.logo{
+    margin: -30px;
+}
+
+.rs{
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

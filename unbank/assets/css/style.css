@@ -1,0 +1,39 @@
+.login-btn{
+    color: #9400d3;
+    position: absolute;
+    right: 30px;
+}
+
+.login-btn:hover{
+    border-bottom: 2px solid #9400d3;
+}
+
+.bg-violet{
+    background-color: #9400d3;
+    padding-bottom: 50px;
+}
+
+.btn-enviar{
+    color: #9400d3;
+    position: absolute;
+    right: 30px;
+    transition: 4ms ease;
+}
+
+.btn-enviar:hover{
+    background-color: #9400d3;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+}
+
+.borda-vio{
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+}
+
